@@ -1,6 +1,32 @@
+div {
+  
+  margin: -8px;
+}
+
+.header h2{
+    color: #f9faf8;
+}
+
+.left-main-content h1{
+    color: #f9faf8;
+}
+
+.left-main-content p{
+    color: #e5e7eb;
+    
+}
+.right-content li{
+    color: #e5e7eb;
+}
+
+.image-placeholder-main p{
+    color: #e5e7eb;
+
+}
+
 .main{
     padding: 0 15%;
-    background-color: aliceblue; 
+    background-color: #1f2937; 
     padding-bottom: 9%;
 }
 
@@ -35,7 +61,7 @@ ul{
 .image-placeholder-main {
     width: 700px;
     height: 230px;
-    background-color: bisque;
+    background-color: gray;
     text-align: center;
     margin-left: 0px;
     display: flex;
@@ -47,7 +73,7 @@ ul{
 
 .content-2{
     padding-top: 3%;
-    padding-bottom: 7%;
+    padding-bottom: 0%;
 }
 
 .text-align-center {
@@ -63,7 +89,7 @@ ul{
 
 .card{
     width:175px;
-    height: 500px;
+    height: 350px;
 }
 
 .box-or-image {
@@ -77,4 +103,43 @@ ul{
 .box-or-image-illustration{
     text-align: center;
     padding: 0 20px;
+}
+
+/* content-3 styling starts here  */
+
+.content-3 {
+    padding: 5% 25%;
+    background-color: blanchedalmond;
+}
+
+.content-3-right{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+/* content-4 styling starts here  */
+
+.content-4-outer{
+    padding: 7% 15%;
+
+}
+
+.content-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 30px 65px;
+    border-radius: 10px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 27px 0;
+    margin: 0;
 }
