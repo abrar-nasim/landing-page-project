@@ -3,24 +3,37 @@ div {
   margin: -8px;
 }
 
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: #f9faf8;
+    font-size: 20px;
+}
 .header h2{
     color: #f9faf8;
 }
 
 .left-main-content h1{
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .left-main-content p{
     color: #e5e7eb;
+    font-size: 18px;
     
 }
 .right-content li{
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .image-placeholder-main p{
     color: #e5e7eb;
+    font-size: 18px;
 
 }
 
@@ -78,12 +91,15 @@ ul{
 
 .text-align-center {
     text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:extra-bold;
 }
 
 .card-row{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     padding-top: 3%;
 }
 
@@ -109,7 +125,13 @@ ul{
 
 .content-3 {
     padding: 5% 25%;
-    background-color: blanchedalmond;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .content-3-right{
@@ -129,17 +151,33 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #3882f6;
     padding: 30px 65px;
     border-radius: 10px;
+    color: #f9faf8;
 
+}
+
+.content-4 button{
+    border: 2px solid white;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #1f2937;
     padding: 27px 0;
-    margin: 0;
+    color:#e5e7eb;
+    font-size: 18px;
+    
+}
+
+.content-4 h3{
+    font-size: 24px;
+}
+
+.content-4 p{
+    font-size: 18px ;
+    margin-top: -16px;
 }
